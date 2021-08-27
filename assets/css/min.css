@@ -1,0 +1,60 @@
+
+body {
+    background-color: rebeccapurple;
+    font-size: 14px;
+}
+
+.card-slid {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    word-wrap: break-word;
+    padding: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.img-card {
+    flex: 0 0 auto;
+    width: 40%;
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.ds__card {
+    padding: 1rem 0.5rem;
+}
+.name-card {
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.title-card {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.next-control {
+    color: white;
+    width: 0%;
+    padding: 14px;
+    position: absolute;
+    right: -40px;
+    font-size: 20px;
+}
+.next-control-left {
+    color: white;
+    width: 0%;
+    padding: 14px;
+    position: absolute;
+    left: -40px;
+    font-size: 20px;
+}
+

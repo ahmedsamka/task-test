@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- start min style css -->
+    <link href="assets/css/contuct.css" rel="stylesheet">
+    <!-- font-awesom  Link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Contact Us</title>
+  </head>
+  <body> 
+    <section class="contact-us-Page">
+        <div class="contant-body">
+           <h2>Contact Us</h2>
+           <p>We can't slve your problam if you don't tll us about it!</p>
+        </div>
+        <!-- Start Form Contact Us -->
+        <div class="cont-msg" id="cont-msg">
+          <div class="close-icon" id="close-icon" onclick="closeForm()" >
+            <i class="far fa-times-circle"></i>
+          </div>
+          <div class="form-control">
+            <label for="FullName">Full Name</label>
+            <input type="text" name="full_name" class="input_form" placeholder="Full name" required autocomplete="off">
+          </div>
+          <div class="form-control">
+            <label for="Email">Email</label>
+            <input type="email" name="email" class="input_form" placeholder="Email Address" required autocomplete="off">
+          </div>
+          <div class="form-control">
+            <label for="Message">Message</label>
+            <textarea class="input_msg" placeholder="Enter your message..."></textarea>
+          </div>
+          <div class="form-control">
+            <button class="btn-msg">Contact Us</button>
+          </div>
+        </div> <!-- end div cont-msg -->
+        <div class="cont-icon" id="cont-icon" onclick="toggleMsg()">
+          <i class="fab fa-facebook-messenger"></i>
+        </div>
+    </section>
+
+    <!-- Link javascript -->
+    <script src="assets/js/min.js"></script>
+  </body>
+</html>
